@@ -1,13 +1,9 @@
 using NUnit.Framework;
 
-namespace Solutions
+namespace SolutionTests
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    public class AnagramDetection
+    public class Tests
     {
-        
         [SetUp]
         public void Setup()
         {
