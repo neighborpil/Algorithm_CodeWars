@@ -1,9 +1,8 @@
 using NUnit.Framework;
-using Solutions;
 
 namespace SolutionTests
 {
-    public class FindTheCapitals
+    public class FindTheCapitalsTest
     {
         [SetUp]
         public void Setup()
@@ -16,25 +15,25 @@ namespace SolutionTests
         [Test]
         public void CodEWaRs()
         {
-            Assert.AreEqual(Kata.Capitals("CodEWaRs"), new int[] { 0, 3, 4, 6 });
+            Assert.AreEqual(Solutions.FindTheCapitals.Capitals("CodEWaRs"), new int[] { 0, 3, 4, 6 });
         }
 
         [Test]
         public void IfNullEntered()
         {
-            Assert.AreEqual(Kata.Capitals(null), new int[] { });
+            Assert.AreEqual(Solutions.FindTheCapitals.Capitals(null), new int[] { });
         }
 
         [Test]
         public void IfNumberEntered()
         {
-            Assert.AreEqual(Kata.Capitals("1234"), new int[] { });
+            Assert.AreEqual(Solutions.FindTheCapitals.Capitals("1234"), new int[] { });
         }
 
         [Test]
         public void IfKoreanEntered()
         {
-            Assert.AreEqual(Kata.Capitals("감나라"), new int[] { });
+            Assert.AreEqual(Solutions.FindTheCapitals.Capitals("감나라"), new int[] { });
         }
 
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Solutions
 {
-    public static class Kata
+    public static class FindTheCapitals
     {
         public static int[] Capitals(string word)
         {
